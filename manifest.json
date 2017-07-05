@@ -1,0 +1,18 @@
+{
+  "name": "Regla de 3",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "description": "Ejemplo de VM",
+  "permissions": [
+    "activeTab"
+  ],  
+  "background": {
+        "scripts": ["chain.js"]  
+    },
+  "browser_action": {
+      "default_icon": "icons/ico.png",
+      "default_title": "Regla",
+      "default_popup": "popup/calculadora.html",
+      "browser_style": true
+  }
+}
